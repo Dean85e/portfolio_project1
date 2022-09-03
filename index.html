@@ -23,13 +23,13 @@
     </nav>
                       <!--Header-->
     <header id="header">
+        <div class="hero-image"></div>
+    <div class="hero-text-container">  
+        <div class="hero-text"> 
+            <h1>Little Swimmers Swimming club</h1>
+            <h3>Join our kids swimming club for ages 2 to 16!</h3>
         </div>
-        <div class="hero-image">
-            <div class="hero-text"> 
-                <h1>Little Swimmers Swimming club</h1>
-                <h3>Join our kids swimming club for ages 2 to 16!</h3>
-            </div>
-        </div>
+    </div>
     </header>
     
     <section>       <!--About us section-->
@@ -74,11 +74,28 @@
     </section>
                    <!--Sign Up section-->
     <section>
-     <div id="sign-up">
-            <h2>Sign Up</h2>
-            <br>
-            <p>Sign Up form goes here</p>
-     </div>
+      <div id="sign-up">
+          
+        <div class="form"> 
+            <form action="https://formdump.codeinstitute.net" method="post">
+              <fieldset> 
+                <legend>Sign up here !</legend> 
+
+                <label for="childs-name">Child's Name</label>
+                <input id="childs-name" type="text" name="full-name" required>
+
+                <label for="parent-name">Parent/Guardian's Name</label>
+                <input id="parent-name" type="text" name="full-name" required>
+
+                <label for="email">Contact Email</label>
+                <input id="email" type="email" name="email" required>
+                
+                <div id="submit-button"><input type="submit" value="Lets Get Swimming"></div>
+               </fieldset> 
+            </form>  
+        </div>
+           
+      </div>
     </section>
 </body>
 </html>
