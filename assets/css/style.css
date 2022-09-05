@@ -14,39 +14,50 @@ body{
 }
 h1, h2{
     font-family: oswald, sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     text-transform: uppercase;
 }
 
-.nav-links-list{
-    text-align: right;
+#nav-bar{
+    font-size: 110%;
+    letter-spacing: 2px;
+    float: right;
+    
 }
 
- .nav-links-list ul li{
+ #nav-bar li{
     list-style-type: none;
     text-align: right;
     display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-    margin-right: 5px;
+    padding: 8px 2px;
+    margin-right: 25px;
 }
 
 #logo{
     float: left;
     font-size: 250%;
+    text-decoration: none;
 }
 
-.nav-links-list ul li a {
+#nav-bar a {
     text-decoration: none;
+}
+#nav-bar, #logo{
+    line-height: 75px;
+}
+.hero-image-container{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    
 }
  
 .hero-image {
     height: 600px;
     width: 100%;
-    padding-top: 300px;
     background: url('../images/pexels-oleksandr-pidvalnyi-12061244.jpg') no-repeat center center;
     background-size: cover;
-    background-position: center;
+     
      
 }
 
