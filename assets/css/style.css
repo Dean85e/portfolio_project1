@@ -1,6 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: lato, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
     
+}
+h1, h2{
+    font-family: oswald, sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 .nav-links-list{
@@ -18,7 +33,7 @@ body{
 
 #logo{
     float: left;
-    font-size: 20px;
+    font-size: 250%;
 }
 
 .nav-links-list ul li a {
@@ -28,6 +43,7 @@ body{
 .hero-image {
     height: 600px;
     width: 100%;
+    padding-top: 300px;
     background: url('../images/pexels-oleksandr-pidvalnyi-12061244.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
@@ -44,8 +60,8 @@ body{
     position: relative;
     text-align: center;
     color: orangered;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
  
 #about-us{
@@ -57,19 +73,25 @@ body{
     color: black;
 }
 #about-us-text{
-    padding-top: 100px;
+    padding-top: 50px;
 }
-.text-left {
-     text-align: left;
-     margin-left: 50px;
+.text-left p {
+    text-align: left;
+    margin-left: 5%;
+    padding-bottom: 7px;
+}
+.text-left ul li{
+    text-align: left;
+     margin-left: 10%;
 }
  
 .table-view{
     padding: 10px 10px 10px 10px;
-    margin-left: 200px;
+    margin-left: 10%;
     text-decoration: underline;
     border: solid 1px black;
     border-radius: 6px;
+    margin-top: 20px;
     
 }
 
@@ -98,6 +120,7 @@ body{
 label{
     display: block;
     margin-top: 1em;
+    padding: 10px 10px 10px 10px;
 }
 #submit-button{
     padding-top: 20px;
@@ -106,3 +129,18 @@ label{
     
 }
 
+
+@media screen and (max-width: 950px) {
+    
+    #menu{
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+
+    }
+    .hero-image{
+        margin: 0 auto;
+    }
+}
