@@ -139,6 +139,30 @@ label{
     color: orangered;
     
 }
+#contact-info-container{
+    background-color: aqua;
+    height: 300px;
+    width: 100%;
+}
+.contact-text{
+   text-align: center;
+   padding-top: 50px;
+    
+}
+#social-links{
+    text-align: center;
+    padding-top: 20px;
+     
+}
+#social-links li{
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+#social-links a {
+    text-decoration: none;
+}
 
 
 @media screen and (max-width: 950px) {
