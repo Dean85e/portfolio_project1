@@ -61,7 +61,7 @@ h1, h2{
 }
 
 .hero-text-container{
-    height: 150px;
+    height: 200px;
     width: 100%;
     background-color: #e68839;
     margin-bottom: -50px;
@@ -71,7 +71,7 @@ h1, h2{
 .hero-text { 
     position: relative;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 20px;
     letter-spacing: 2px;
 }
@@ -113,19 +113,33 @@ h1, h2{
     text-align: center;
     margin-top: -50px;
     background-color: #e68839;
+    position: relative;
     
 }
 .form{
-    height: 500px;
-    width: 100%;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding-top: 200px;
-    color: black;
-     
+    max-width: 400px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 50px;
 }
+
+fieldset{
+    margin: 2em;
+    padding: 1em 2em;
+    border: solid 1px black;
+    border-radius: 6px;
+    min-width: 200px;
+}
+legend{
+    font-size: 1.25em;
+    padding: 0 .25em;
+    color: black;
+}
+ 
 #form-text-color{
     color: black;
 }
@@ -133,12 +147,17 @@ h1, h2{
 label{
     display: block;
     margin-top: 1em;
-    padding: 10px 10px 10px 10px;
+    color: black;
+    
 }
-#submit-button{
-    padding-top: 20px;
-    font-size: 1.5em;
-    color: orangered;
+input[type=submit] {
+    margin-top: 20px;
+    padding: .5em 1em;
+    border-radius: 6px;
+    color: white;
+    background-color: #3997e6;
+    
+    
     
 }
 #contact-info-container{
@@ -165,7 +184,7 @@ label{
 #social-links a {
     text-decoration: none;
     font-size: 150%;
-    color: black;
+    color: maroon;
 }
 
 
