@@ -193,12 +193,18 @@ input[type=submit] {
     #menu{
         clear: left;
         float: left;
-        margin-left: 30px;
+        margin-left: 15px;
         margin-bottom: 20px;
         line-height: 25px;
-
-    }
+     }
     .hero-image{
         margin: 0 auto;
+    }
+    #logo{
+        margin: 0 auto;
+        padding-left: 40px;
+    }
+    .hero-text{
+        padding-bottom: 40px;
     }
 }
