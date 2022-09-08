@@ -99,24 +99,29 @@ h2 {
     padding-top: 50px;
 }
    /*Style the p element and the unordered list*/
-.text-left p {
-    text-align: left;
-    margin-left: 5%;
+.center-list p {
+    text-align: center;
+    
     padding-bottom: 7px;
 }
+.center-list{
+    text-align: center;
+}
 
-.text-left ul li {
-    text-align: left;
-    margin-left: 10%;
+.center-list > ul {
+    display: inline-block;
+
 }
    /*Style the table*/
-.table-view {
+
+.table-view { 
     padding: 10px 10px 10px 10px;
-    margin-left: 10%;
     text-decoration: underline;
     border: solid 1px white;
     border-radius: 6px;
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
    /*Style the sign up section container*/
