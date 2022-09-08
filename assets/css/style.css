@@ -1,80 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
-*{
+   /*Set style for all elements*/
+* {
     margin: 0;
     padding: 0;
     border: none;
 }
-
-body{
+   /*Set font and font weight & the color of same*/
+body {
     font-family: lato, sans-serif;
     font-weight: 300;
     color: white
-    
 }
-h1, h2{
+   /*Set font and letter spacing for all h1/h2 elements & transform to uppercase*/
+h1,
+h2 {
     font-family: oswald, sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
-
-#nav-bar{
+   /*Style the navigation bar*/
+#nav-bar {
     font-size: 110%;
     letter-spacing: 2px;
     float: right;
-     
-    
 }
-
- #nav-bar li{
+   /*Style the navigation bar list items*/
+#nav-bar li {
     list-style-type: none;
     text-align: right;
     display: inline-block;
     padding: 8px 2px;
     margin-right: 25px;
-     
-}
 
-#logo{
+}
+   /*Style the Header logo*/
+#logo {
     padding-left: 10px;
     float: left;
     font-size: 250%;
     text-decoration: none;
     color: #040147;
-     
-}
 
+}
+    /*Style the navigation bar anchor tags*/
 #nav-bar a {
     text-decoration: none;
     color: #040147;
 }
-#nav-bar, #logo{
+    /*Setting the line height for the header logo & navigation bar*/
+#nav-bar,
+#logo {
     line-height: 75px;
 }
-.hero-image-container{
+     /*Style the hero image container*/
+.hero-image-container {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    
+
 }
- 
+      /*Style the hero image*/
 .hero-image {
     height: 600px;
     width: 100%;
     background: url('../images/pexels-oleksandr-pidvalnyi-12061244.jpg') no-repeat center center;
     background-size: cover;
-     
-}
 
-.hero-text-container{
+}
+     /*Style the heading text container*/
+.hero-text-container {
     height: 200px;
     width: 100%;
     background-color: #e68839;
     margin-bottom: -50px;
 }
 
- 
-.hero-text { 
+    /*Style the heading text*/
+.hero-text {
     position: relative;
     text-align: center;
     padding-top: 30px;
@@ -82,8 +85,8 @@ h1, h2{
     letter-spacing: 2px;
     color: black;
 }
- 
-#about-us{
+    /*Style the about us section container*/
+#about-us {
     margin-top: -50px;
     background-color: #040147;
     width: 100%;
@@ -91,29 +94,32 @@ h1, h2{
     text-align: center;
     clear: both;
 }
-#about-us-text{
+   /*Style the about us text*/
+#about-us-text {
     padding-top: 50px;
 }
+   /*Style the p element and the unordered list*/
 .text-left p {
     text-align: left;
     margin-left: 5%;
     padding-bottom: 7px;
 }
-.text-left ul li{
+
+.text-left ul li {
     text-align: left;
-     margin-left: 10%;
+    margin-left: 10%;
 }
- 
-.table-view{
+   /*Style the table*/
+.table-view {
     padding: 10px 10px 10px 10px;
     margin-left: 10%;
     text-decoration: underline;
     border: solid 1px white;
     border-radius: 6px;
     margin-top: 20px;
-    
-}
 
+}
+   /*Style the sign up section container*/
 #sign-up {
     width: 100%;
     height: 500px;
@@ -121,9 +127,10 @@ h1, h2{
     margin-top: -50px;
     background-color: #e68839;
     position: relative;
-    
+
 }
-.form{
+     /*Style the form*/
+.form {
     max-width: 400px;
     position: absolute;
     left: 0;
@@ -133,85 +140,93 @@ h1, h2{
     margin: auto;
     padding-top: 50px;
 }
-
-fieldset{
+   /*Style the fieldset & legend*/
+fieldset {
     margin: 2em;
     padding: 1em 2em;
     border: solid 1px black;
     border-radius: 6px;
     min-width: 200px;
 }
-legend{
+
+legend {
     font-size: 1.25em;
     padding: 0 .25em;
     color: black;
 }
- 
-#form-text-color{
+
+#form-text-color {
     color: black;
 }
-
-label{
+   /*Style the form labels*/
+label {
     display: block;
     margin-top: 1em;
     color: black;
-    
+
 }
+    /*Style the submit button*/
 input[type=submit] {
     margin-top: 20px;
     padding: .5em 1em;
     border-radius: 6px;
     color: white;
     background-color: #040147;
-    
-    
-    
+
 }
-#contact-info-container{
+     /*Style the footer section*/
+#contact-info-container {
     background-color: #040147;
     height: 300px;
     width: 100%;
 }
-.contact-text{
-   text-align: center;
-   padding-top: 50px;
-    
+    /*Center the text in the footer section*/
+.contact-text {
+    text-align: center;
+    padding-top: 50px;
+
 }
-#social-links{
+     /*Style the social media links*/
+#social-links {
     text-align: center;
     padding-top: 20px;
-     
+
 }
-#social-links li{
+
+#social-links li {
     display: inline-block;
     list-style-type: none;
     text-decoration: none;
     padding: 8px 12px;
 }
+
 #social-links a {
     text-decoration: none;
     font-size: 150%;
     color: #e68839;
 }
 
-
+     /*Add some responsive design ... Some inspiration taken from Love Running*/
 @media screen and (max-width: 950px) {
-    
-    #menu{
+
+    #menu {
         clear: left;
         float: left;
         margin-left: 15px;
         margin-bottom: 20px;
         line-height: 25px;
-     }
-    .hero-image{
+    }
+
+    .hero-image {
         margin: 0 auto;
     }
-    #logo{
+
+    #logo {
         margin: 0 auto;
         padding-left: 40px;
     }
-    .hero-text{
+
+    .hero-text {
         padding-bottom: 40px;
 
     }
