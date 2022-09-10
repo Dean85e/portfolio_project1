@@ -274,6 +274,9 @@ input[type=submit] {
             margin-left: 12%;
             letter-spacing: 1px;
         }
+        .hero-text{
+            padding-top: 30px;
+        }
 }
 @media screen and (max-width: 350px) {
     #nav-bar{
