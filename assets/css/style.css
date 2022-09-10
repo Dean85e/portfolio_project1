@@ -73,7 +73,7 @@ h2 {
     height: 200px;
     width: 100%;
     background-color: #e68839;
-    margin-bottom: -50px;
+    
 }
 
     /*Style the heading text*/
@@ -214,10 +214,9 @@ input[type=submit] {
      /*Add some responsive design ... Some inspiration taken from Love Running*/
 @media screen and (max-width: 950px) {
 
-    #menu {
+    #nav-bar {
         clear: left;
-        float: left;
-        margin-left: 15px;
+        letter-spacing: 2px;
         margin-bottom: 20px;
         line-height: 25px;
     }
@@ -229,6 +228,7 @@ input[type=submit] {
     #logo {
         margin: 0 auto;
         padding-left: 40px;
+        letter-spacing: 2px;
     }
 
     .hero-text {
@@ -239,14 +239,54 @@ input[type=submit] {
 
 @media screen and (max-width: 500px){
     #nav-bar{
-        letter-spacing: 1px;
-        margin-left: auto;
-        margin-right: auto;
+        clear: left;
+        float: left;
+        margin-bottom: 10px;
+        letter-spacing: 2px;
+        margin-left: 15%;
+        
     } 
     #logo{
+        letter-spacing: 2px;
+        padding-left: 0;
+        margin-left: 16%;
+        
+        
+        
+    }
+    .hero-text{
         letter-spacing: 1px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 20px;
+        padding-top: 40px;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .hero-text-container{
+        height: 220px;
     }   
+}
+@media screen and (max-width: 390px) {
+        #logo{
+            margin-left: 12%;
+            letter-spacing: 1px;
+        }
+        
+        #nav-bar{
+            margin-left: 12%;
+            letter-spacing: 1px;
+        }
+}
+@media screen and (max-width: 350px) {
+    #nav-bar{
+        margin-left: 11%;
+        
+        letter-spacing: normal;
+    }
+    #logo{
+        margin-left: 11%;
+        letter-spacing: normal;
+        
+    }
+    .hero-text{
+        padding-top: 20px;
+    }
 }
