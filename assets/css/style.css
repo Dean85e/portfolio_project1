@@ -48,6 +48,9 @@ h2 {
     text-decoration: none;
     color: #040147;
 }
+#nav-bar a:hover{
+    color: #e68839;
+}
     /*Setting the line height for the header logo & navigation bar*/
 #nav-bar,
 #logo {
@@ -64,7 +67,7 @@ h2 {
 .hero-image {
     height: 600px;
     width: 100%;
-    background: url('../images/pexels-oleksandr-pidvalnyi-12061244.jpg') no-repeat center center;
+    background: url('../images/hero-image.jpg.jpg') no-repeat center center;
     background-size: cover;
 
 }
@@ -210,6 +213,7 @@ input[type=submit] {
     font-size: 150%;
     color: #e68839;
 }
+
 
      /*Add some responsive design ... Some inspiration taken from Love Running*/
 @media screen and (max-width: 950px) {
