@@ -236,3 +236,17 @@ input[type=submit] {
 
     }
 }
+
+@media screen and (max-width: 500px){
+    #nav-bar{
+        letter-spacing: 1px;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    #logo{
+        letter-spacing: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+    }   
+}
