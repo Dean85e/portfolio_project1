@@ -298,12 +298,12 @@ input[type=submit] {
         padding-top: 20px;
     }
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width:321px) {
     #logo{
-        margin-left: 7%;
+        margin-left: 6%;
     }
     #nav-bar{
-        margin-left: 7%;
+        margin-left: 6%;
     }
     
 }
