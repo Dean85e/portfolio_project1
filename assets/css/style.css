@@ -272,18 +272,18 @@ input[type=submit] {
 @media screen and (max-width: 390px) {
         #logo{
             margin-left: 13%;
-            letter-spacing: 0px;
+            letter-spacing: 1px;
         }
         
         #nav-bar{
             margin-left: 13%;
-            letter-spacing: 0px;
+            letter-spacing: 1px;
         }
         .hero-text{
             padding-top: 30px;
         }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 353px) {
     #nav-bar{
         margin-left: 11%;
         
