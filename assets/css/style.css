@@ -297,3 +297,41 @@ input[type=submit] {
         padding-top: 20px;
     }
 }
+#thank-you-outer{
+    height: fit-content;
+    width: fit-content;
+    background-color: #040147;
+}
+
+#thank-you-box{
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    border: solid 3px black;
+    width: 500px;
+    height: 300px;
+    color: black;
+    background-color: #e68839;
+}
+#thank-you-text{
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 500;
+    font-size: 120%;
+}
+#home-button{
+    margin-top: 25px;
+    padding: 10px 10px 10px 10px;
+    background-color: #040147;
+    border: solid 3px black;
+    border-radius: 6px;
+     
+}
+#home-button a {
+    text-decoration: none;
+    color: white;
+}
+ 
