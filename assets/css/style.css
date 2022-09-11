@@ -300,10 +300,10 @@ input[type=submit] {
 }
 @media screen and (max-width:321px) {
     #logo{
-        margin-left: 6%;
+        margin-left: 5%;
     }
     #nav-bar{
-        margin-left: 6%;
+        margin-left: 5%;
     }
     
 }
