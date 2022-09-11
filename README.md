@@ -12,7 +12,7 @@
 
  ## Features
 
-    ### Navigation
+ ### Navigation
         
         *Featured at the top of the page the navigation shows the club name in the top left corner:
          LITTLE SWIMMERS SWIMMING CLUB which links to the top of the page.
@@ -25,6 +25,19 @@
         different sections of the website easily accesible.
 
         *The navigation is in a color that contrasts with the background.
+
+## The Header
+        
+        *The header has an image of a child swimming which blends well with the color scheme 
+        of the website.
+
+        *The header shows the name of the club, it explains what the club is and who it is for.
+
+        *The header explains the club is for 2 to 16 year olds.
+
+        *The header background contrasts with the header text.
+
+![Image of a child swimming](assets/images/header.PNG)        
 
 
 
