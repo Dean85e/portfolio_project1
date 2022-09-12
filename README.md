@@ -114,6 +114,25 @@
 
 #### Accesibility
 
-    * Lighthouse report.
+    * I can confirm that the colors and fonts chosen are easy to read and accessible 
+      by running it through Lighthouse in devtools.
 
-![Screenshot of lighthouse report](assets/images/lighthouse%20report.png)    
+![Screenshot of lighthouse report](assets/images/lighthouse%20report.png)  
+
+#### Unfixed Bugs
+
+  * No unfied bugs.
+
+#### Deployment
+    
+    The site was deployed to git hub pages the steps are as follows:
+
+        * In the github repository navigate to the settings tab.
+
+        * Select pages in the drop-down menu.
+
+        * In build and deployment select main then save
+
+        * The page then provided a link to the completed website.  
+
+    The live link can be found here [](https://dean85e.github.io/portfolio_project1/ "Little Swimmers")
