@@ -74,3 +74,19 @@
         platforms which when clicked opens in a new tab.  
 
 ![Screenshot of the contact us section](assets/images/Contact%20us.PNG)        
+
+## Testing
+
+     * I can confirm this website works in different browsers: Edge,Chrome,Safari and 
+       Firefox.
+
+     * I can confirm this site is responsive, looks and functions good on all standard
+       screen sizes by using dev tools. 
+
+     * I have confirmed the form validation works as it requires entry in all fields
+       and will only accept an email in the email field.
+
+     * I have checked the submit button works.
+
+     * I have also checked that the button on the thank you page works and links back to 
+       the main website.   
