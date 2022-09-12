@@ -1,11 +1,11 @@
  # Little SWIMMERS SWIMMING CLUB
 
         Little Swimmers is a swimming club for kids of ages 2 to 16.
-        The club offers fun water activities for kids to learn how to swim and gain crucial confidence in the
-        water.
-        Users who visit this website will be able to find all the information they need to know about the club
-        including a detailed time-table, contact information, links to the clubs social media, an about section
-        and a sign up form.
+        The club offers fun water activities for kids to learn how to swim and gain crucial confidence 
+        and water safety skills.
+        Users who visit this website will be able to find all the information they need to know about
+        the club including a detailed time-table, contact information, links to the clubs social media, 
+        an about section and a sign up form.
         
         This website is targeted to the parents of kids who want to learn to swim.
 
@@ -90,4 +90,24 @@
      * I have checked the submit button works.
 
      * I have also checked that the button on the thank you page works and links back to 
-       the main website.   
+       the main website.
+
+### Bugs
+
+     
+#### html
+
+     * When validating the html through the official w3c validator I found some bugs
+       these errors were from nesting elements inside each other I had one extra closing
+       tag for a div in the about section and contact section.
+
+     * I went through the html and removed both said closing tags and ran the html
+       through the validator, this time no errors were found.
+
+![Screenshot of html validation](assets/images/w3c%20validator%20html.PNG)
+
+#### css
+
+     * No bugs were found
+
+![Screenshot of css validation](assets/images/w3c%20Css%20validator.PNG)
