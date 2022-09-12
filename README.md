@@ -64,3 +64,13 @@
 ![Screenshot of thank you message](assets/images/form%20thank%20you.PNG)
 
 ## Contact us
+
+      * The contact section provides the user with clear information on how 
+        to get in touch with the club.
+
+      * This section displays a phone number, email address and swimming club address.
+
+      * The contact section also provides the user with links to its social media
+        platforms which when clicked opens in a new tab.  
+
+![Screenshot of the contact us section](assets/images/Contact%20us.PNG)        
