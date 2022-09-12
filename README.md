@@ -26,7 +26,7 @@
 
         *The navigation is in a color that contrasts with the background.
 
-## The Header
+### The Header
         
         *The header has an image of a child swimming which blends well with the color scheme 
         of the website.
@@ -39,5 +39,28 @@
 
 ![Image of a child swimming](assets/images/header.PNG)        
 
+## The about us section
+        
+        * The About us section gives the user information about the club
+          including what it offers its members.
 
+        * This section also has a time table clearly stating the schedule
+          for each day, time and age group.   
 
+![Screenshot of about us section](assets/images/about%20us%20section.PNG)
+
+## The sign up section
+
+       * The sign up section has a form for the parent to join their child
+         to the swimming club.
+
+       * The form asks for the childs name, the parents name & email address.
+
+       * When the form is submitted the user is redirected to a thank you message
+         and a button with clear information to link back to the main website. 
+
+![Screenshot of sign up section](assets/images/sign%20up%20form.PNG)
+
+![Screenshot of thank you message](assets/images/form%20thank%20you.PNG)
+
+## Contact us
