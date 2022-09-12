@@ -1,12 +1,13 @@
  # Little SWIMMERS SWIMMING CLUB
 
- Little Swimmers is a swimming club for kids of ages 2 to 16.
- The club offers fun water activities for kids to learn how to swim and gain crucial confidence in the water
- Users who visit this website will be able to find all the information they need to know about the club
- including a detailed time-table, contact information, links to the clubs social media, an about section
- and a sign up form.
- 
- This website is targeted to the parents of kids who want to learn to swim.
+        Little Swimmers is a swimming club for kids of ages 2 to 16.
+        The club offers fun water activities for kids to learn how to swim and gain crucial confidence in the
+        water.
+        Users who visit this website will be able to find all the information they need to know about the club
+        including a detailed time-table, contact information, links to the clubs social media, an about section
+        and a sign up form.
+        
+        This website is targeted to the parents of kids who want to learn to swim.
 
  ![Image showing my website across multiple screens](assets/images/Am%20i%20responsive.PNG)
 
@@ -18,18 +19,18 @@
          LITTLE SWIMMERS SWIMMING CLUB which links to the top of the page.
 
         *The other links in the navigation bar are located on the top right in desktop and tablet form
-        these links are linked to the relevant sections of the same page including About Us, Contact Us,
-        Sign Up. Please note these links are located under the main header for the page on mobile devices.
+         these links are linked to the relevant sections of the same page including About Us, Contact Us,
+         Sign Up. Please note these links are located under the main header for the page on mobile devices.
 
-        *The navigation has a pseudo class : hover which changes color to make clear to the user that these links makes the 
-        different sections of the website easily accesible.
+        *The navigation has a pseudo class : hover which changes color to make clear to the user that these 
+         links make the different sections of the website easily accesible.
 
         *The navigation is in a color that contrasts with the background.
 
-### The Header
+## The Header
         
         *The header has an image of a child swimming which blends well with the color scheme 
-        of the website.
+         of the website.
 
         *The header shows the name of the club, it explains what the club is and who it is for.
 
@@ -42,7 +43,7 @@
 ## The about us section
         
         * The About us section gives the user information about the club
-          including what it offers its members.
+          including what it offers to its members.
 
         * This section also has a time table clearly stating the schedule
           for each day, time and age group.   
@@ -57,7 +58,7 @@
        * The form asks for the childs name, the parents name & email address.
 
        * When the form is submitted the user is redirected to a thank you message
-         and a button with clear information to link back to the main website. 
+         page with a button which has clear information to link back to the main website. 
 
 ![Screenshot of sign up section](assets/images/sign%20up%20form.PNG)
 
