@@ -121,7 +121,7 @@
   * I can confirm that the colors and fonts chosen are easy to read and accessible 
     by running it through Lighthouse in devtools.
 
-![Screenshot of lighthouse report](assets/images/lighthouse%20screenshot.png)  
+![Screenshot of lighthouse report](assets/images/lighthouse-screenshot.png)  
 
 #### Unfixed Bugs
 
