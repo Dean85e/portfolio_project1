@@ -21,11 +21,12 @@
     LITTLE SWIMMERS SWIMMING CLUB which links to the top of the page.
 
   * The other links in the navigation bar are located on the top right in desktop and tablet form
-    these links are linked to the relevant sections of the same page including About Us, Contact Us,
-    Sign Up. Please note these links are located under the main header for the page on mobile devices.
+    these links are linked to the relevant sections of the same page including About Us, Contact Us 
+    and Sign Up. 
+    Please note these links are located under the main header for the page on mobile devices.
 
   * The navigation has a pseudo class : hover which changes color to make clear to the user that these 
-    links make the different sections of the website easily accesible.
+    links make the different sections of this website easily accesible.
 
   * The navigation is in a color that contrasts with the background.
 
@@ -41,11 +42,11 @@
         
   
   * The header has an image of a child swimming which blends well with the color scheme 
-    of the website.
+    of this website.
 
   * The header shows the name of the club, it explains what the club is and who it is for.
 
-  * The header explains the club is for 2 to 16 year olds.
+  * The header explains that this club is for 2 to 16 year olds.
 
   * The header background contrasts with the header text.
 
