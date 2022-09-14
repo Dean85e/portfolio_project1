@@ -52,7 +52,7 @@
   * This section also has a time table clearly stating the schedule
     for each day, time and age group.   
 
-![Screenshot of about us section](assets/images/about%20us%20section.PNG)
+![Screenshot of about us section](assets/images/About%20us%20screenshot.png)
 
 ### The sign up section
 
@@ -64,7 +64,7 @@
   * When the form is submitted the user is redirected to a thank you message
     page with a button which has clear information to link back to the main website. 
 
-![Screenshot of sign up section](assets/images/sign%20up%20form.PNG)
+![Screenshot of sign up section](assets/images/Form%20Screenshot.png)
 
 ![Screenshot of thank you message](assets/images/form%20thank%20you.PNG)
 
@@ -145,4 +145,3 @@
 
  * Some inspiration was taken from the Love Running project for the header and navigation bar.
 
- 
