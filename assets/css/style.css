@@ -251,27 +251,34 @@ input[type=submit] {
 
 @media screen and (max-width: 500px){
     #nav-bar{
-        clear: left;
-        float: left;
-        margin-bottom: 10px;
-        letter-spacing: 1.5px;
-        margin-left: 15%;
+        
+        float: none;
+        display: flex;
+        justify-content: center;
         
     } 
-    #logo{
-        letter-spacing: 2px;
-        padding-left: 0;
-        margin-left: 15%;
-        
-        
-        
+    #nav-bar li{
+        margin: auto;
     }
+    #logo{
+        float: none;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        padding: 0;
+    }
+    
+    header a {
+        text-decoration: none;
+    }
+    
     .hero-text{
         letter-spacing: 1px;
         padding-top: 40px;
         margin-left: 1%;
         margin-right: 1%;
     }
+    
     .hero-text-container{
         height: 220px;
     } 
@@ -281,43 +288,19 @@ input[type=submit] {
     }   
 }
 @media screen and (max-width: 390px) {
-        #logo{
-            margin-left: 13%;
-            letter-spacing: 1px;
-        }
-        
-        #nav-bar{
-            margin-left: 13%;
-            letter-spacing: 1px;
-        }
+         
         .hero-text{
             padding-top: 30px;
         }
 }
 @media screen and (max-width: 353px) {
-    #nav-bar{
-        margin-left: 9%;
-        
-        letter-spacing: 0px;
-    }
-    #logo{
-        margin-left: 9%;
-        letter-spacing: 0px;
-        
-    }
+  
+    
     .hero-text{
         padding-top: 20px;
     }
 }
-@media screen and (max-width:321px) {
-    #logo{
-        margin-left: 5%;
-    }
-    #nav-bar{
-        margin-left: 5%;
-    }
-    
-}
+
 #thank-you-outer{
     height: fit-content;
     width: fit-content;
