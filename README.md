@@ -1,7 +1,7 @@
  # LITTLE SWIMMERS SWIMMING CLUB
 
         Little Swimmers is a swimming club for kids of ages 2 to 16.
-        The club offers fun water activities for kids to learn how to swim and gain crucial confidence 
+        This club offers fun water activities for kids to learn how to swim and gain crucial confidence 
         and water safety skills.
         Users who visit this website will be able to find all the information they need to know about
         the club including a detailed time-table, contact information, links to the clubs social media, 
@@ -89,7 +89,7 @@
 
 ### Testing
 
-  * I can confirm this website works in different browsers: Edge,Chrome,Safari and 
+  * I can confirm this website works in different browsers: Edge, Chrome, Safari and 
     Firefox.
 
   * I can confirm this site is responsive, looks and functions good on all standard
@@ -107,26 +107,26 @@
 
 #### Solved bugs
 
-* When running my site through lighthouse report i noticed the performane score was 
+* When running the site through lighthouse report i noticed the performance score was 
   low (73), To fix this I reduced the size of hero image with Optimizilla's online service 
-  this has pushed the sites performance score to (92).
+  this has pushed the sites performance score up to (92).
 
  
      
 #### html
 
-  * When validating the html through the official W3C validator I found some bugs
-    these errors were from nesting elements inside each other I had one extra closing
-    tag for a div in the about section and contact section.
+  * When validating the html through the official W3C validator I found some errors
+    these errors were from nesting elements inside each other, I had one extra closing
+    tag for a div in the about section and the contact section.
 
   * I went through the html and removed both said closing tags and ran the html
-    through the validator, this time no errors were found.
+    through the validator again, this time no errors were found.
 
 ![Screenshot of html validation](assets/images/w3c%20validator%20html.PNG)
 
 #### css
 
-  * No bugs were found when running code through official W3C validator.
+  * No errors were found when running this code through the official W3C validator.
 
 ![Screenshot of css validation](assets/images/w3c%20Css%20validator.PNG)
 
@@ -144,7 +144,7 @@
 
 ### Deployment
     
-    The site was deployed to git hub pages the steps are as follows:
+    This site was deployed to git hub pages the steps are as follows:
 
   * In the github repository navigate to the settings tab.
 
@@ -154,14 +154,15 @@
 
   * The page then provided a link to the completed website.  
 
-  Link to live website can be found here -[ Little Swimmers](https://dean85e.github.io/portfolio_project1/) 
+  Link to the live website can be found here -[ Little Swimmers](https://dean85e.github.io/portfolio_project1/) 
 
 ### Credits
 
  * Some inspiration was taken from the Love Running project for the header and navigation bar.
-   Link to site -[ Love Running](https://dean85e.github.io/love-running/)
+   Link to the site -[ Love Running](https://dean85e.github.io/love-running/)
  
  
+### Media
 
  * The photograph for the hero image was taken from pexels.
 
