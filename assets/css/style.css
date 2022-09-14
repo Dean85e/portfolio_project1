@@ -6,7 +6,7 @@
     padding: 0;
     border: none;
 }
-   /*Set font and font weight & the color of same*/
+   /*Set font and font weight & the color*/
 body {
     font-family: lato, sans-serif;
     font-weight: 300;
@@ -19,13 +19,13 @@ h2 {
     letter-spacing: 2px;
     text-transform: uppercase;
 }
-   /*Style the navigation bar*/
+   /*Style the navigation bar and heading logo*/
 #nav-bar {
     font-size: 110%;
     letter-spacing: 2px;
     float: right;
 }
-   /*Style the navigation bar list items*/
+   
 #nav-bar li {
     list-style-type: none;
     text-align: right;
@@ -34,7 +34,7 @@ h2 {
     margin-right: 25px;
 
 }
-   /*Style the Header logo*/
+   
 #logo {
     padding-left: 10px;
     float: left;
@@ -43,7 +43,7 @@ h2 {
     color: #040147;
 
 }
-    /*Style the navigation bar anchor tags*/
+    
 #nav-bar a {
     text-decoration: none;
     color: #040147;
@@ -51,27 +51,26 @@ h2 {
 #nav-bar a:hover{
     color: #e68839;
 }
-    /*Setting the line height for the header logo & navigation bar*/
+    
 #nav-bar,
 #logo {
     line-height: 75px;
 }
-     /*Style the hero image container*/
+     /*Style the hero image and hero text*/
 .hero-image-container {
     height: 600px;
     width: 100%;
     overflow: hidden;
 
 }
-      /*Style the hero image*/
 .hero-image {
     height: 600px;
     width: 100%;
-    background: url('../images/hero-image.jpg.jpg') no-repeat center center;
+    background: url('../images/hero-image.webp') no-repeat center center;
     background-size: cover;
 
 }
-     /*Style the heading text container*/
+     
 .hero-text-container {
     height: 200px;
     width: 100%;
@@ -79,7 +78,6 @@ h2 {
     
 }
 
-    /*Style the heading text*/
 .hero-text {
     position: relative;
     text-align: center;
@@ -88,7 +86,7 @@ h2 {
     letter-spacing: 2px;
     color: black;
 }
-    /*Style the about us section container*/
+    /*Style the about us section*/
 #about-us {
     margin-top: -50px;
     background-color: #040147;
@@ -97,11 +95,11 @@ h2 {
     text-align: center;
     clear: both;
 }
-   /*Style the about us text*/
+   
 #about-us-text {
     padding-top: 50px;
 }
-   /*Style the p element and the unordered list*/
+   
 .center-list p {
     text-align: center;
     
@@ -115,13 +113,13 @@ h2 {
     display: inline-block;
 
 }
-   /*Style the table*/
+   
 
 .table-view { 
     letter-spacing: 3px;
-    padding: 10px 10px 10px 10px;
+    padding: 15px 15px 15px 15px;
     text-decoration: none;
-    border: solid 1px white;
+    border: solid 2px white;
     border-radius: 6px;
     margin-top: 25px;
     margin-left: auto;
@@ -149,7 +147,7 @@ h2 {
     margin: auto;
     padding-top: 50px;
 }
-   /*Style the fieldset & legend*/
+   
 fieldset {
     margin: 2em;
     padding: 1em 2em;
@@ -167,14 +165,22 @@ legend {
 #form-text-color {
     color: black;
 }
-   /*Style the form labels*/
+   
 label {
     display: block;
     margin-top: 1em;
     color: black;
 
 }
-    /*Style the submit button*/
+
+input[type=email]{
+    border: solid 1px black;
+}
+
+input[type=text]{
+    border: solid 1px black;
+}
+    
 input[type=submit] {
     margin-top: 20px;
     padding: .5em 1em;
@@ -189,13 +195,13 @@ input[type=submit] {
     height: 300px;
     width: 100%;
 }
-    /*Center the text in the footer section*/
+    
 .contact-text {
     text-align: center;
     padding-top: 50px;
 
 }
-     /*Style the social media links*/
+     
 #social-links {
     text-align: center;
     padding-top: 20px;
@@ -247,14 +253,14 @@ input[type=submit] {
         clear: left;
         float: left;
         margin-bottom: 10px;
-        letter-spacing: 2px;
+        letter-spacing: 1.5px;
         margin-left: 15%;
         
     } 
     #logo{
         letter-spacing: 2px;
         padding-left: 0;
-        margin-left: 16%;
+        margin-left: 15%;
         
         
         
@@ -267,6 +273,10 @@ input[type=submit] {
     }
     .hero-text-container{
         height: 220px;
+    } 
+    #about-us-text p{
+        padding-left: 10px;
+        padding-right: 10px;
     }   
 }
 @media screen and (max-width: 390px) {

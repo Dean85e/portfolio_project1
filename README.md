@@ -135,4 +135,4 @@
 
         * The page then provided a link to the completed website.  
 
-    The live link can be found here [Little Swimmers](https://dean85e.github.io/portfolio_project1/)
+  [Little Swimmers](https://dean85e.github.io/portfolio_project1/) Link to live website
