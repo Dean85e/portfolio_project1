@@ -331,20 +331,12 @@ input[type=submit] {
 }
 #thank-you-text{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 80px;
     font-weight: 500;
-    font-size: 120%;
 }
-#home-button{
-    margin-top: 25px;
-    padding: 10px 10px 10px 10px;
-    background-color: #040147;
-    border: solid 3px black;
-    border-radius: 6px;
-     
-}
-#home-button a {
-    text-decoration: none;
-    color: white;
+ 
+#thank-you-text a {
+    text-decoration: underline;
+    color: #040147;
 }
  

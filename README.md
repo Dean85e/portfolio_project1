@@ -1,5 +1,7 @@
  # LITTLE SWIMMERS SWIMMING CLUB
 
+Link to the live website can be found here -[ Little Swimmers](https://dean85e.github.io/portfolio_project1/) 
+
 Little Swimmers is a swimming club for kids of ages 2 to 16.
 This club offers fun water activities for kids to learn how to swim and gain crucial confidence 
 and water safety skills.
