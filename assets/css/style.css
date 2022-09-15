@@ -276,7 +276,7 @@ input[type=submit] {
     }
     
     .hero-text{
-        letter-spacing: 1px;
+        letter-spacing: 0px;
         padding-top: 40px;
         margin-left: 1%;
         margin-right: 1%;
