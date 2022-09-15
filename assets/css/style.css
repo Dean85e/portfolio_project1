@@ -258,6 +258,7 @@ input[type=submit] {
         float: none;
         display: flex;
         justify-content: center;
+        letter-spacing: 1px;
         
     } 
     #nav-bar li{
@@ -269,6 +270,7 @@ input[type=submit] {
         justify-content: center;
         margin: auto;
         padding: 0;
+        letter-spacing: 1px;
     }
     
     header a {
