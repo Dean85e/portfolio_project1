@@ -107,6 +107,8 @@ h2 {
 }
 .center-list{
     text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .center-list > ul {
