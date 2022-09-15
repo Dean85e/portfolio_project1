@@ -114,6 +114,7 @@ h2 {
 
 .center-list > ul {
     display: inline-block;
+    list-style: none;
 
 }
    
