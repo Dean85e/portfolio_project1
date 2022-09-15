@@ -9,7 +9,7 @@
         
         This website is targeted to the parents of kids who want to learn to swim.
 
- ![Image showing my website across multiple screens](assets/images/Am%20i%20responsive.PNG)
+ ![Image showing my website across multiple screens](README-screenshots/Am%20i%20responsive.PNG)
 
  ## Features
 
@@ -50,7 +50,7 @@
 
   * The header background contrasts with the header text.
 
-![Image of a child swimming](assets/images/header.PNG)        
+![Image of a child swimming](README-screenshots/header.PNG)        
 
 ### The about us section
         
@@ -60,7 +60,7 @@
   * This section also has a time table clearly stating the schedule
     for each day, time and age group.   
 
-![Screenshot of about us section](assets/images/About%20us%20screenshot.png)
+![Screenshot of about us section](README-screenshots/About%20us%20screenshot.png)
 
 ### The sign up section
 
@@ -72,9 +72,9 @@
   * When the form is submitted the user is redirected to a thank you message
     page with a button which has clear information to link back to the main website. 
 
-![Screenshot of sign up section](assets/images/Form%20Screenshot.png)
+![Screenshot of sign up section](README-screenshots/Form%20Screenshot.png)
 
-![Screenshot of thank you message](assets/images/form%20thank%20you.PNG)
+![Screenshot of thank you message](README-screenshots/form%20thank%20you.PNG)
 
 ### Contact us
 
@@ -86,7 +86,7 @@
   * The contact section also provides the user with links to its social media
     platforms which when clicked opens in a new tab.  
 
-![Screenshot of the contact us section](assets/images/Contact%20us.PNG)        
+![Screenshot of the contact us section](README-screenshots/Contact%20us.PNG)        
 
 ### Testing
 
@@ -123,20 +123,20 @@
   * I went through the html and removed both said closing tags and ran the html
     through the validator again, this time no errors were found.
 
-![Screenshot of html validation](assets/images/w3c%20validator%20html.PNG)
+![Screenshot of html validation](README-screenshots/w3c%20validator%20html.PNG)
 
 #### css
 
   * No errors were found when running this code through the official W3C validator.
 
-![Screenshot of css validation](assets/images/w3c%20Css%20validator.PNG)
+![Screenshot of css validation](README-screenshots/w3c%20Css%20validator.PNG)
 
 #### Accesibility
 
   * I can confirm that the colors and fonts chosen are easy to read and accessible 
     by running it through Lighthouse in devtools.
 
-![Screenshot of lighthouse report](assets/images/lighthouse-screenshot.png)  
+![Screenshot of lighthouse report]( README-screenshots/lighthouse-screenshot.png)  
 
  
 #### Unfixed Bugs
