@@ -209,7 +209,10 @@ To make a copy or 'fork' the repository:
 
 ### Credits
 
- * Some inspiration was taken from the Love Running project for the header and navigation bar.
+ * Some inspiration was taken from the Love Running project for the header  and navigation bar.
+
+ * Some inspiration was also taken from the Love Running project for the social media links in the footer.
+
    Link to the site -[ Love Running](https://dean85e.github.io/love-running/)
 
  * Throughout the building process I found many helpful threads online such as :
