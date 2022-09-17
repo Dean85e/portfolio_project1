@@ -311,13 +311,7 @@ input[type=submit] {
         letter-spacing: 1px;
     }
 }
-
-@media screen and (max-width: 390px) {
-
-    .hero-text {
-        padding-top: 30px;
-    }
-}
+ 
 
 @media screen and (max-width: 353px) {
 
