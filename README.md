@@ -9,9 +9,31 @@ Users who visit this website will be able to find all the information they need 
 the club including a detailed time-table, contact information, links to the clubs social media, 
 an about section and a sign up form.
 
+## Target Audience
+
 This website is targeted to the parents of kids who want to learn to swim.
 
  ![Image showing my website across multiple screens](README-screenshots/responsive-screenshot.png)
+
+ ## Live Site
+
+ [ Little Swimmers](https://dean85e.github.io/portfolio_project1/) 
+
+## Repository
+
+https://github.com/Dean85e/portfolio_project1
+
+## UX: User Experience
+
+### User Stories
+
+As a user I want to be able to:
+
+* Understand the purpose of the site on loading.
+* Navigate through the site smoothly.
+* Be able to contact the club easily.
+* Learn information about the clubs offerings an times.
+* Be able to connect with the club on social media.
 
  ## Features
 
@@ -25,7 +47,7 @@ This website is targeted to the parents of kids who want to learn to swim.
 
   * The other links in the navigation bar are located on the top right in desktop and tablet form
     these links are linked to the relevant sections of the same page including About Us, Contact Us 
-    and Sign Up. 
+    and Sign Up for a good UX. 
     Please note these links are located under the main header for the page on mobile devices.
     
     ![Screenshot of navigation menu](README-screenshots/nav-mobile-screenshot.png)
@@ -79,7 +101,7 @@ This website is targeted to the parents of kids who want to learn to swim.
 
 ![Screenshot of sign up section](README-screenshots/form-screenshot.png)
 
-![Screenshot of thank you message](README-screenshots/form-thank-you.PNG)
+![Screenshot of thank you message](README-screenshots/thank-you-screenshot.png)
 
 ### Contact us
 
@@ -162,10 +184,32 @@ This website is targeted to the parents of kids who want to learn to swim.
 
   Link to the live website can be found here -[ Little Swimmers](https://dean85e.github.io/portfolio_project1/) 
 
+### To Fork The Repository
+
+To make a copy or 'fork' the repository:
+   
+   1. Log into GitHub and locate repository.
+   2. On the right hand side of the page select the 'fork' option to create a copy of the original.
+
+### To Create A Local Clone
+
+  1. Under the repository name, click on the code tab.
+  2. In the clone box, HTTPS tab, click ont the clipboard icon.
+  3. In your IED open GitBash.
+  4. Change the current working directory to the location you want the cloned directory to be made
+  5. Type 'git clone' and then paste the url copied from GitHub.
+  6. Press enter and the local clone will be created. 
+
 ### Credits
 
  * Some inspiration was taken from the Love Running project for the header and navigation bar.
    Link to the site -[ Love Running](https://dean85e.github.io/love-running/)
+
+ * Throughout the building process I found many helpful threads online such as :
+   
+    [Stack Overflow](https://stackoverflow.com)
+    
+    [W3Schools](https://www.w3schools.com/)
  
  
 ### Media
