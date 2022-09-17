@@ -234,3 +234,8 @@ To make a copy or 'fork' the repository:
 
  * The icons used for the social media links were taken from font awesome.
 
+ ### Languages Used
+
+ * HTML 5
+ * CSS 3
+
