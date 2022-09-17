@@ -111,9 +111,16 @@ As a user I want to be able to:
   * This section displays a phone number, email address and swimming club address.
 
   * The contact section also provides the user with links to its social media
-    platforms which when clicked opens in a new tab.  
+    platforms which when clicked opens in a new tab for a good UX.  
 
-![Screenshot of the contact us section](README-screenshots/contact-us-screenshot.PNG)        
+![Screenshot of the contact us section](README-screenshots/contact-us-screenshot.PNG) 
+
+### Future Features
+
+* A hamburger menu for mobile devices.
+* A main gallery page.
+* Google maps Address with iframes.
+* An arrow guiding the user back to the top.
 
 ### Testing
 
@@ -128,7 +135,7 @@ As a user I want to be able to:
 
   * I have checked the submit button works.
 
-  * I have also checked that the button on the thank you page works and links back to 
+  * I have also checked that the link on the thank you page works and links back to 
     the main website.
 
 ### Bugs
