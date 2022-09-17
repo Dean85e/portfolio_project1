@@ -35,6 +35,17 @@ As a user I want to be able to:
 * Learn information about the clubs offerings an times.
 * Be able to connect with the club on social media.
 
+### Fonts & colors
+
+ * The fonts used in this site are "Oswald" & "Lato" with a fall back option of "Sans-serif".
+
+  * The two main colors for this website are : 
+
+  * HEX color #E68839, Color name: California.
+
+  * HEX color #040147, Color name: Midnight Blue.
+
+
  ## Features
 
  
@@ -57,14 +68,7 @@ As a user I want to be able to:
 
   * The navigation is in a color that contrasts with the background.
 
-  * The fonts used in this site are "Oswald" & "Lato" with a fall back option of "Sans-serif".
-
-  * The two main colors for this website are : 
-
-  * HEX color #E68839, Color name: California.
-
-  * HEX color #040147, Color name: Midnight Blue.
-
+ 
 ### The Header
         
   
