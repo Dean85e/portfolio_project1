@@ -97,7 +97,7 @@ As a user I want to be able to:
   * The form asks for the childs name, the parents name & email address.
 
   * When the form is submitted the user is redirected to a thank you message
-    page with a button which has clear information to link back to the main website. 
+    page with a link which has clear information to link back to the main website. 
 
 ![Screenshot of sign up section](README-screenshots/form-screenshot.png)
 
